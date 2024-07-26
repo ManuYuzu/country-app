@@ -1,0 +1,18 @@
+<h2>Search</h2>
+
+<hr>
+
+<ul class="list-group">
+
+  @for (option of sidebarOptions; track $index) {
+  <li
+    [routerLink]="option.link"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    class="list-group-item"
+  >
+    {{ option.title }}
+  </li>
+  }
+
+</ul>
