@@ -1,0 +1,21 @@
+.spinner-container {
+  align-items: center;
+  background-color: #0f0f0f;
+  border-radius: 25px;
+  bottom: 15px;
+  box-shadow: 0px 2px 5px #0f0f0f52;
+  color: #fff;
+  display: flex;
+  padding: 5px 10px;
+  position: fixed;
+  right: 15px;
+  z-index: 99;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+span {
+  margin-left: 5px;
+}
